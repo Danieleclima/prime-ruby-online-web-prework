@@ -1,12 +1,10 @@
 require "pry"
 
 def prime? (number)
-  range = [1..number]
-  range.each do |x|
+  x = 2
+  while x < number
    if number % x == 0
-     return false
-   else
-     return true
+  
   end
 end
 end
