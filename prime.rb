@@ -2,9 +2,10 @@ require "pry"
 
 def prime? (number)
   x = 2
-  while x < number
+  while x < number 
    if number % x == 0
-  binding.pry
+     puts x
+  #binding.pry
   end
   x++
 end
