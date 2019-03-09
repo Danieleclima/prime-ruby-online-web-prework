@@ -7,7 +7,7 @@ def prime? (number)
      puts x
   #binding.pry
   end
-  x++
+  x += 1
 end
 
 end
