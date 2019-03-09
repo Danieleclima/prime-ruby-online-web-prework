@@ -9,12 +9,12 @@ def prime? (number)
   while x < number 
    if number % x == 0
      #puts x
-  binding.pry
+  #binding.pry
   return false
   end
   x += 1
 end
-
+return true
 end
   
 
