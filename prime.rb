@@ -6,7 +6,9 @@ def prime? (number)
    if number % x == 0
   binding.pry
   end
+  x++
 end
+
 end
   
 
