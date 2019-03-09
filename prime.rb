@@ -2,8 +2,8 @@ require "pry"
 
 def prime? (number)
   range = [1..number]
-  binding.pry
   range.each do |x|
+  binding.pry 
    if number % x == 0
      return false
    else
