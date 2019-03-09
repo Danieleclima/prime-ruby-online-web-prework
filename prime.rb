@@ -6,7 +6,7 @@ def prime? (number)
    if number % x == 0
      #puts x
   binding.pry
-  
+  return false
   end
   x += 1
 end
